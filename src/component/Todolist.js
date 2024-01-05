@@ -1,6 +1,6 @@
 import React from 'react';
 import App from './App';
-import App from './components/TodoList';
+import Todoitem from './components/TodoList';
 
 export const Todoitem = ({ todo, toggleTodo, deleteTodo }) => {
   return (
@@ -8,7 +8,9 @@ export const Todoitem = ({ todo, toggleTodo, deleteTodo }) => {
       <span onClick={() => toggleTodo(todo.id)}>{todo.text}</span>
       <button onClick={() => deleteTodo(todo.id)}>Delete</button>
     </li>
+  
   );
+  
 };
 export default Todoitem;
 
