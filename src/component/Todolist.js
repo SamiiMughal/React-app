@@ -1,5 +1,6 @@
 import React from 'react';
 import App from './App';
+import App from './components/TodoList';
 
 export const Todoitem = ({ todo, toggleTodo, deleteTodo }) => {
   return (
@@ -10,4 +11,5 @@ export const Todoitem = ({ todo, toggleTodo, deleteTodo }) => {
   );
 };
 export default Todoitem;
+
 
