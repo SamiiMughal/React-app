@@ -1,14 +1,10 @@
-import logo from './logo.svg';
 import React from 'react';
 import './App.css';
 import TodoList from './components/TodoList.jsx';
-import TodoItem from './TodoItem';
 import { useState } from 'react';
 
 function App() {
   
-  <div>SAMI </div>
-
   const [list,setList] = useState([])
   const [task,setTask] = useState('')
 
