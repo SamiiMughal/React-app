@@ -1,6 +1,8 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import TodoList from './components/TodoList.jsx';
+import TodoItem from './TodoItem';
 import { useState } from 'react';
 
 function App() {
@@ -13,7 +15,7 @@ function App() {
   function handleText(){
     if (task !== null && task !== '') {
       setList([...list,task]);
-      setTask('') // Empty after add
+      setTask('') // Empty after addn
     }
 
   }
